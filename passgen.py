@@ -8,7 +8,7 @@ def gen():
             
     def basic():
         for i in range(int(pas)):
-            a = randint(26, 61)
+            a = randint(26, 60)
             print("\033[33m" + letters[a], end = "")
             
     def special():
